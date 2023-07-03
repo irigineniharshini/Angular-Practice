@@ -1,0 +1,9 @@
+<div class="container" [formGroup]="myForm">
+  <h5 >Welcome to Login</h5>
+<label>UserName:</label>
+<input type="text" formControlName="userName"/>
+<label>Password:</label>
+<input type="password" formControlName="passwordHash"/>
+<button type="button" (click)="submit()">Submit</button>
+
+</div>
